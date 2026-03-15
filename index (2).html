@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Navin Kumar R | Portfolio</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+color:white;
+background:linear-gradient(-45deg,#0f172a,#1e3a8a,#0ea5e9,#22c55e);
+background-size:400% 400%;
+animation:gradient 10s ease infinite;
+}
+
+@keyframes gradient{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:rgba(0,0,0,0.2);
+backdrop-filter:blur(10px);
+}
+
+nav h2{
+font-weight:700;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:500;
+}
+
+nav a:hover{
+color:#facc15;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+/* SOCIAL BOX */
+
+.social-box{
+margin-top:25px;
+font-size:18px;
+background:rgba(255,255,255,0.15);
+padding:25px;
+border-radius:15px;
+display:inline-block;
+backdrop-filter:blur(10px);
+}
+
+.social-box p{
+margin:10px 0;
+}
+
+.social-box i{
+margin-right:8px;
+color:#facc15;
+font-size:20px;
+}
+
+/* SECTION */
+
+section{
+padding:70px 10%;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+font-size:36px;
+}
+
+/* ABOUT */
+
+.about{
+text-align:center;
+max-width:800px;
+margin:auto;
+font-size:18px;
+line-height:1.6;
+}
+
+/* SKILLS */
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:25px;
+}
+
+.skill-card{
+background:rgba(255,255,255,0.1);
+padding:30px;
+border-radius:20px;
+text-align:center;
+backdrop-filter:blur(10px);
+transition:0.3s;
+}
+
+.skill-card:hover{
+transform:translateY(-10px) scale(1.05);
+background:rgba(255,255,255,0.2);
+}
+
+.skill-card i{
+font-size:40px;
+margin-bottom:10px;
+}
+
+/* PROJECTS */
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.project-card{
+background:rgba(255,255,255,0.1);
+padding:25px;
+border-radius:20px;
+backdrop-filter:blur(10px);
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:scale(1.05);
+}
+
+.project-card h3{
+color:#facc15;
+margin-bottom:10px;
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+font-size:18px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:rgba(0,0,0,0.3);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<h2>Navin Kumar</h2>
+
+<div>
+
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<div class="hero">
+
+<h1>Navin Kumar R</h1>
+
+<p>Computer Science Engineer | AI & Data Science Enthusiast</p>
+
+<div class="social-box">
+
+<p><i class="fab fa-github"></i> GitHub ID: <b>NavinKumarR2006</b></p>
+
+<p><i class="fab fa-linkedin"></i> LinkedIn ID: <b>mr-navin-kumar-r</b></p>
+
+<p><i class="fa fa-file"></i> Resume ID: <b>1P3pIoklttanYER1kok24llFtFKvuBygC</b></p>
+
+</div>
+
+</div>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<div class="about">
+
+<p>
+
+I am a Computer Science Engineering student at Agni College of Technology with CGPA 8.48.
+
+I am passionate about Artificial Intelligence, Data Science, and Full Stack Development.
+
+I enjoy building real-world software systems that solve practical problems using modern technologies.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<h2>Technical Skills</h2>
+
+<div class="skills">
+
+<div class="skill-card">
+<i class="fab fa-python"></i>
+<h3>Python</h3>
+</div>
+
+<div class="skill-card">
+<i class="fab fa-java"></i>
+<h3>Java</h3>
+</div>
+
+<div class="skill-card">
+<i class="fas fa-code"></i>
+<h3>C / C++</h3>
+</div>
+
+<div class="skill-card">
+<i class="fab fa-html5"></i>
+<h3>HTML</h3>
+</div>
+
+<div class="skill-card">
+<i class="fab fa-css3-alt"></i>
+<h3>CSS</h3>
+</div>
+
+<div class="skill-card">
+<i class="fab fa-js"></i>
+<h3>JavaScript</h3>
+</div>
+
+<div class="skill-card">
+<i class="fas fa-database"></i>
+<h3>MySQL</h3>
+</div>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+
+<h3>Smart Railway Ticket Booking System</h3>
+
+<p>
+Digital platform to automate railway ticket booking with database integration and research submission.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Hospital Token Booking System</h3>
+
+<p>
+Online hospital appointment system designed to reduce patient waiting time.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Fund Flow Tracking System</h3>
+
+<p>
+AI based system for monitoring banking transactions and detecting suspicious activity.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<div class="contact">
+
+<p><i class="fa fa-envelope"></i> naveenkumar2006rjn@gmail.com</p>
+
+<p><i class="fa fa-phone"></i> +91 6369497842</p>
+
+<p><i class="fa fa-location-dot"></i> Ariyalur, Tamil Nadu</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Navin Kumar R | Portfolio</p>
+
+</footer>
+
+</body>
+</html>
